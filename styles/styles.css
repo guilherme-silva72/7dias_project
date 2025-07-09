@@ -151,3 +151,117 @@ main,
     color: var(--cor-texto);
     margin-top: 4px;
 }
+
+.talentos {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+    margin-top: 40px;
+}
+
+.talentos__titulo {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--cor-titulo);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.talentos__badge {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--cor-destaque);
+    background-color: rgb(255, 226, 226);
+    border-radius: 20px;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+}
+
+.talentos__descricao {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--cor-texto);
+    text-align: center;
+    width: 50%;
+}
+
+.talentos__imagem {
+    width: 100%;
+    /*max-width: 600px;*/
+    max-height: 800px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.talentos__vagas {
+    align-self: flex-start;
+    width: 100%;
+    padding-left: 15%;
+}
+
+.talentos__vagas__secao {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--cor-titulo);
+    margin-bottom: 20px;
+}
+
+.talentos__vagas__titulo {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--cor-titulo);
+    margin-bottom: 10px;
+}
+
+.talentos__vagas__descricao {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-texto);
+    margin-bottom: 20px;
+}
+
+.talentos__vagas__item {
+    margin-bottom: 30px;
+    padding: 16px;
+    border: 1px solid #EAECF0;
+    border-radius: 12px;
+    background-color: #ffffff;
+    width: 80%;
+}
+
+.depoimentos {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+    background-color: #C3191908;
+}
+
+.depoimentos__titulo {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--cor-titulo);
+    text-align: center;
+    margin-bottom: 15px;
+}
+.depoimentos__imagem {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
